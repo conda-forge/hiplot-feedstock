@@ -1,17 +1,17 @@
 {% set name = "hiplot" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: ad984b72b98c6adbfba958d897ff42738882e1cd07b8f4f835f3f845fb147803
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 88ab84aed39a97622396c76990aff89fb3fd5561516943325fad88c96d243300
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -30,11 +30,11 @@ test:
     - hiplot
 
 about:
-  home: "https://github.com/facebookresearch/hiplot"
+  home: https://github.com/facebookresearch/hiplot
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "High dimensional Interactive Plotting tool"
+  summary: High dimensional Interactive Plotting tool
   doc_url: https://facebookresearch.github.io/hiplot/
 
 extra:
