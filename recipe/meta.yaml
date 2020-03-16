@@ -1,5 +1,5 @@
 {% set name = "hiplot" %}
-{% set version = "0.1.7.post2" %}
+{% set version = "0.1.7.post3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9f22b8e729319150e77feee45c91d1ad7a52b324ead6e014a464ff282b8294ab
+  sha256: d638ad2816867afa209db02aaa36c1721bba501a56ac5adc5440bca9cb5bd279
 
 build:
   number: 0
@@ -40,4 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - rpanai
-    - danthe3rd 
+    - danthe3rd
