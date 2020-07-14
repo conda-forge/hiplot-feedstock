@@ -1,5 +1,5 @@
 {% set name = "hiplot" %}
-{% set version = "0.1.17" %}
+{% set version = "0.1.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 79b8197d10be83c40246722a79398e79b0e8ebe03fd6698714039f0be607e154
+  sha256: 6c1bdb7f815c4668d9bee2218dc8b1f0ff67bf50aca1c60038b505c54be146f8
 
 build:
   number: 0
