@@ -5,11 +5,11 @@ Home: https://github.com/facebookresearch/hiplot
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hiplot-feedstock/blob/master/LICENSE.txt)
 
 Summary: High dimensional Interactive Plotting tool
 
-
+Documentation: https://facebookresearch.github.io/hiplot/
 
 Current build status
 ====================
